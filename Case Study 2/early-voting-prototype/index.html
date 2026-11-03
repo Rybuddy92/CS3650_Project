@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Early Voting Information | Madison County</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <h1>Madison County Elections</h1>
+            <p>Early Voting Information - Interactive Prototype</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <nav aria-label="Breadcrumb">
+            <a href="https://www.madisoncountyil.gov/departments/county_clerk/elections/index.php">
+                Elections Home
+            </a>
+            <span aria-hidden="true"> / </span>
+            <span aria-current="page">Early Voting</span>
+        </nav>
+
+        <section class="information-section"
+                 aria-labelledby="page-heading">
+
+            <h2 id="page-heading">Find Early Voting Information</h2>
+
+            <p>
+                Select an early voting location to view its
+                address and voting schedule.
+            </p>
+
+            <form id="votingForm" novalidate>
+                <fieldset>
+                    <legend>Search for Early Voting Information</legend>
+
+                    <div class="form-group">
+                        <label for="location">
+                            Select an Early Voting Location
+                        </label>
+
+                        <select id="location"
+                                name="location"
+                                aria-describedby="locationHelp locationError">
+                            <option value="">
+                                -- Select a Location --
+                            </option>
+                            <option value="sample1">
+                                Sample Voting Center A
+                            </option>
+                            <option value="sample2">
+                                Sample Voting Center B
+                            </option>
+                            <option value="sample3">
+                                Sample Voting Center C
+                            </option>
+                        </select>
+
+                        <p id="locationHelp" class="help-text">
+                            Choose one location from the list.
+                        </p>
+
+                        <p id="locationError"
+                           class="error-message"
+                           hidden></p>
+                    </div>
+
+                    <div class="button-group">
+                        <button id="searchButton"
+                                type="submit">
+                            Find Information
+                        </button>
+
+                        <button id="resetButton"
+                                type="reset"
+                                class="secondary-button">
+                            Clear Selection
+                        </button>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div id="loadingIndicator" class="loading" hidden>
+                <div class="spinner" aria-hidden="true"></div>
+                <p>Searching for voting information...</p>
+            </div>
+
+            <p id="statusMessage"
+               class="status-message"
+               role="status"
+               aria-live="polite"
+               aria-atomic="true"></p>
+
+            <section id="results"
+                     class="results"
+                     aria-labelledby="resultsHeading"
+                     hidden>
+                <h3 id="resultsHeading" tabindex="-1">
+                    Early Voting Location Details
+                </h3>
+
+                <div id="resultsContent"></div>
+            </section>
+
+            <section id="searchFailure"
+                     class="failure-panel"
+                     aria-labelledby="failureHeading"
+                     hidden>
+                <h3 id="failureHeading" tabindex="-1">
+                    Unable to Retrieve Information
+                </h3>
+                <p>
+                    The search could not be completed.
+                    Please try again.
+                </p>
+                <button id="retryButton" type="button">
+                    Retry Search
+                </button>
+            </section>
+
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>
+                HCI Case Study 02 - Educational Prototype
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
