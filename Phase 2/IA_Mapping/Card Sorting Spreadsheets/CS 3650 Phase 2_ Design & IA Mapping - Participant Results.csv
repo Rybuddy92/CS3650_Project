@@ -1,0 +1,55 @@
+Participant,Card ID,Card Name,Category Assigned
+P1,C01,Register to Vote,Register
+P1,C02,Check Voter Registration Status,Register
+P1,C03,Update Voter Registration,Register
+P1,C04,Voter Registration Requirements,Register
+P1,C05,Find My Polling Place,Locations and Times
+P1,C06,Election Day Voting Hours,Locations and Times
+P1,C07,Early Voting Locations,Locations and Times
+P1,C08,Early Voting Dates and Hours,Locations and Times
+P1,C09,Request a Vote-by-Mail Ballot,Vote-by-Mail
+P1,C10,Vote-by-Mail Deadlines,Vote-by-Mail
+P1,C11,Return a Mail-In-Ballot,Vote-by-Mail
+P1,C12,Track My Mail-In-Ballot,Vote-by-Mail
+P1,C13,View Sample Ballot,General Info
+P1,C14,Candidate Information,General Info
+P1,C15,Election Results,General Info
+P1,C16,Voting District Maps,Locations and Times
+P1,C17,Upcoming Election Dates,General Info
+P1,C18,Contact the Elections Office,General Info
+P2,C01,Register to Vote,How to Register
+P2,C02,Check Voter Registration Status,How to Register
+P2,C03,Update Voter Registration,How to Register
+P2,C04,Voter Registration Requirements,How to Register
+P2,C05,Find My Polling Place,How to Vote
+P2,C06,Election Day Voting Hours,How to Vote
+P2,C07,Early Voting Locations,How to Vote
+P2,C08,Early Voting Dates and Hours,How to Vote
+P2,C09,Request a Vote-by-Mail Ballot,How to Vote
+P2,C10,Vote-by-Mail Deadlines,How to Vote
+P2,C11,Return a Mail-In-Ballot,How to Vote
+P2,C12,Track My Mail-In-Ballot,How to Vote
+P2,C13,View Sample Ballot,What You're Voting On
+P2,C14,Candidate Information,What You're Voting On
+P2,C15,Election Results,Extra Information
+P2,C16,Voting District Maps,How to Vote
+P2,C17,Upcoming Election Dates,How to Vote
+P2,C18,Contact the Elections Office,Extra Information
+P3,C01,Register to Vote,Voter Registration
+P3,C02,Check Voter Registration Status,Voter Registration
+P3,C03,Update Voter Registration,Voter Registration
+P3,C04,Voter Registration Requirements,Voter Registration
+P3,C05,Find My Polling Place,Where and When
+P3,C06,Election Day Voting Hours,Where and When
+P3,C07,Early Voting Locations,Where and When
+P3,C08,Early Voting Dates and Hours,Where and When
+P3,C09,Request a Vote-by-Mail Ballot,Vote By Mail
+P3,C10,Vote-by-Mail Deadlines,Vote By Mail
+P3,C11,Return a Mail-In-Ballot,Vote By Mail
+P3,C12,Track My Mail-In-Ballot,Vote By Mail
+P3,C13,View Sample Ballot,Pre-Election Info
+P3,C14,Candidate Information,Pre-Election Info
+P3,C15,Election Results,Results
+P3,C16,Voting District Maps,Where and When
+P3,C17,Upcoming Election Dates,Where and When
+P3,C18,Contact the Elections Office,Pre-Election Info
